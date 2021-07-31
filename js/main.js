@@ -10,11 +10,11 @@ function openModal() {
     modal.style.display = 'block';
   }
   
-  function closeModal() {
+function closeModal() {
     modal.style.display = 'none';
   }
   
-  function outsideClick(e) {
+function outsideClick(e) {
     if (e.target == modal) {
       closeModal();
     }
